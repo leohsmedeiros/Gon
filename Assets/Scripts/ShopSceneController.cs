@@ -4,6 +4,7 @@ using System.Collections;
 
 public class ShopSceneController : MonoBehaviour {
 
+
     /*
 	public Text TextCoin;
 	public GameObject[] windows;
