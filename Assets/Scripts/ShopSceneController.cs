@@ -4,6 +4,7 @@ using System.Collections;
 
 public class ShopSceneController : MonoBehaviour {
 
+    /*
 	public Text TextCoin;
 	public GameObject[] windows;
 
@@ -105,5 +106,5 @@ public class ShopSceneController : MonoBehaviour {
 		messageToUser.text = "Fail! " + erro;
 
 	}
-
+    */
 }
