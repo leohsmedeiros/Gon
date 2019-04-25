@@ -1,4 +1,0 @@
-#Wed Apr 24 21:44:02 BRT 2019
-base.0=/Volumes/Projects/games/Gon/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
