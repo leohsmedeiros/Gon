@@ -62,20 +62,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ButtonBehavior.cs" />
-    <Compile Include="Assets\Scripts\CameraBehavior.cs" />
-    <Compile Include="Assets\Scripts\CharacterBehavior.cs" />
-    <Compile Include="Assets\Scripts\EnemyArchersBehavior.cs" />
-    <Compile Include="Assets\Scripts\FireMagicBehavior.cs" />
-    <Compile Include="Assets\Scripts\GameplayParentBehavior.cs" />
-    <Compile Include="Assets\Scripts\GameplaySceneController.cs" />
-    <Compile Include="Assets\Scripts\LogoSceneController.cs" />
-    <Compile Include="Assets\Scripts\MenuSceneController.cs" />
-    <Compile Include="Assets\Scripts\ProjectileBehavior.cs" />
-    <Compile Include="Assets\Scripts\ShopSceneController.cs" />
-    <Compile Include="Assets\Scripts\SliderBehavior.cs" />
-    <Compile Include="Assets\Scripts\TouchController.cs" />
-    <Compile Include="Assets\Scripts\WaveScenarioController.cs" />
+    <Compile Include="Assets\Scripts\old\ButtonBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\CameraBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\CharacterBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\EnemyArchersBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\FireMagicBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\GameplayParentBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\GameplaySceneController.cs" />
+    <Compile Include="Assets\Scripts\old\LogoSceneController.cs" />
+    <Compile Include="Assets\Scripts\old\MenuSceneController.cs" />
+    <Compile Include="Assets\Scripts\old\ProjectileBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\ShopSceneController.cs" />
+    <Compile Include="Assets\Scripts\old\SliderBehavior.cs" />
+    <Compile Include="Assets\Scripts\old\TouchController.cs" />
+    <Compile Include="Assets\Scripts\old\WaveScenarioController.cs" />
     <Compile Include="Assets\Third Assets\FX Quest\GUI Animator FREE\Scripts\Demo\Demo.cs" />
     <Compile Include="Assets\Third Assets\FX Quest\Scripts\Controllers\FXQ_SoundController.cs" />
     <Compile Include="Assets\Third Assets\FX Quest\Scripts\FXQ_2D_Demo.cs" />
