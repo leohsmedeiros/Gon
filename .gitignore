@@ -2,7 +2,7 @@
 # Edit at https://www.gitignore.io/?templates=unity
 
 ### Unity ###
-[Ll]ibrary/
+#[Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
