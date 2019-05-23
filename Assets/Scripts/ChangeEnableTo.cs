@@ -12,5 +12,10 @@ namespace Gon
         {
             target.SetActive(!target.activeSelf);
         }
+
+        public void ChangeEnable(bool value)
+        {
+            target.SetActive(value);
+        }
     }
 }

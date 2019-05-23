@@ -7,11 +7,11 @@ namespace Gon
     public abstract class LimitedUpdateMonoBehaviour : ObservableMonoBehaviour {
         private bool shouldUpdate = false;
 
-        public void StartUpdating () {
+        public virtual void StartUpdating () {
             shouldUpdate = true;
         }
 
-        public void StopUpdating() {
+        public virtual void StopUpdating() {
             shouldUpdate = false;
         }
 

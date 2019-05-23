@@ -6,7 +6,7 @@ public class CharacterBehavior : MonoBehaviour {
 
 	public Transform limiteOfScenario;
 	public GameplaySceneController controller;
-	public CameraBehavior cameraBv;
+	//public CameraBehavior cameraBv;
 
 	public Transform arrowPrefab;
 	public Transform fireMagicPrefab;

@@ -8,7 +8,7 @@ public class GameplaySceneController : MonoBehaviour {
 
 	public CharacterBehavior player;
 	public GameObject PlayerDeadPrefab;
-	public CameraBehavior cam;
+	//public CameraBehavior cam;
 
 	public GameObject UIGameplay;
 	public GameObject UIPostGameplay;
@@ -398,7 +398,7 @@ public class GameplaySceneController : MonoBehaviour {
 	{
 		GameObject go = Instantiate (PlayerDeadPrefab, player.transform.position + new Vector3 (0, 1, 0), Quaternion.identity) as GameObject;
 		Destroy (player.gameObject);
-		cam.target = go.transform;
+		//cam.target = go.transform;
 
 		UIGameplay.SetActive(false);
 		UIPostGameplay.SetActive(true);

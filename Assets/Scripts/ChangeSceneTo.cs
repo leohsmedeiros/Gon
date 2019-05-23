@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using UnityEngine.SceneManagement;
 
 namespace Gon
 {
     public class ChangeSceneTo : MonoBehaviour
     {
-        public SceneAsset scene;
+
+        //public SceneAsset scene;
+        public string sceneName;
 
         public void ChangeScene ()
         {
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
     }
 }
