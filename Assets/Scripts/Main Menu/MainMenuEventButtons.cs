@@ -1,32 +1,18 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Gon
 {
-    public class MainMenuSceneController : MonoBehaviour
+    public class MainMenuEventButtons : MonoBehaviour
     {
-        public GameObject panel;
-        public GameObject starsOnPanel;
-        public GameObject lightsParticles;
-        public GameObject ivMenuArrow;
         public RectTransform rightMenu;
+        public GameObject ivMenuArrow;
+        public GameObject creditsWindow;
 
         private readonly float[] openClosePositions = { 100f, -100f };
         private bool isMenuClosed = true;
 
-        void Start ()
-        {
-            LeanTween.move(panel, Vector3.zero, 1.5f)
-                .setOnComplete((action) =>
-                {
-                    LeanTween.scale(starsOnPanel, Vector3.one * 0.7f, 1)
-                        .setOnComplete((action2) =>
-                        {
-                            lightsParticles.SetActive(true);
-                        });
-                });
-        }
-
-        public void onClickOpenCloseMenuBtn()
+        public void OnClickOpenCloseMenuBtn()
         {
             float origin = isMenuClosed ? openClosePositions[0] : openClosePositions[1];
             float destiny = isMenuClosed ? openClosePositions[1] : openClosePositions[0];
@@ -38,5 +24,16 @@ namespace Gon
                     LeanTween.scaleX(ivMenuArrow, isMenuClosed ? 1 : -1, 0);
                 });
         }
+
+        public void OnClickToShowHideCredits ()
+        {
+            creditsWindow.SetActive(!creditsWindow.activeSelf);
+        }
+
+        public void OnClickToChangeScene (string sceneName)
+        {
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        }
+
     }
 }

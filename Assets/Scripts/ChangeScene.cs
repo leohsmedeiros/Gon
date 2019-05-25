@@ -3,13 +3,9 @@ using UnityEngine.SceneManagement;
 
 namespace Gon
 {
-    public class ChangeSceneTo : MonoBehaviour
+    public class ChangeScene : MonoBehaviour
     {
-
-        //public SceneAsset scene;
-        public string sceneName;
-
-        public void ChangeScene ()
+        public void ChangeSceneTo (string sceneName)
         {
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
