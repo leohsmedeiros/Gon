@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Arrow
     - EnemyArchersBehavior
     - FireMagicBehavior
+    - FixedJoystick
     - GameplaySceneController
     - Gon.CameraBehavior
     - Gon.ChangeScene
@@ -13,17 +14,14 @@ ScriptsOnlyBuild:
     - Gon.MainMenuEventButtons
     - Gon.MainMenuSceneController
     - Gon.PlayerInputs
-    - Gon.RxOnMouseOver
     - MouseController
     - ProjectileBehavior
     - WaveScenarioController
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -93,47 +91,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9340}
     - Class: 114
-      Script: {instanceID: 9466}
+      Script: {instanceID: 9462}
     - Class: 114
-      Script: {instanceID: 9540}
+      Script: {instanceID: 9536}
     - Class: 114
-      Script: {instanceID: 9562}
+      Script: {instanceID: 9558}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9596}
     - Class: 114
-      Script: {instanceID: 9708}
+      Script: {instanceID: 9704}
     - Class: 114
-      Script: {instanceID: 9714}
+      Script: {instanceID: 9710}
     - Class: 114
-      Script: {instanceID: 9720}
+      Script: {instanceID: 9716}
     - Class: 114
-      Script: {instanceID: 9728}
+      Script: {instanceID: 9724}
     - Class: 114
-      Script: {instanceID: 9764}
+      Script: {instanceID: 9760}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9772}
+      Script: {instanceID: 9768}
     - Class: 114
-      Script: {instanceID: 9966}
+      Script: {instanceID: 9962}
     - Class: 114
-      Script: {instanceID: 10122}
+      Script: {instanceID: 10118}
     - Class: 114
-      Script: {instanceID: 10214}
+      Script: {instanceID: 10210}
     - Class: 114
-      Script: {instanceID: 10296}
+      Script: {instanceID: 10292}
     - Class: 114
-      Script: {instanceID: 10458}
+      Script: {instanceID: 10454}
     - Class: 114
-      Script: {instanceID: 11694}
+      Script: {instanceID: 11692}
     - Class: 114
-      Script: {instanceID: 11762}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11912}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 20816}
     - Class: 114
-      Script: {instanceID: 73398}
+      Script: {instanceID: 23014}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -204,45 +202,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9368}
     - Class: 114
-      Script: {instanceID: 9482}
+      Script: {instanceID: 9478}
     - Class: 114
-      Script: {instanceID: 9562}
+      Script: {instanceID: 9558}
     - Class: 114
-      Script: {instanceID: 9706}
+      Script: {instanceID: 9702}
     - Class: 114
-      Script: {instanceID: 9708}
+      Script: {instanceID: 9704}
     - Class: 114
-      Script: {instanceID: 9714}
+      Script: {instanceID: 9710}
     - Class: 114
-      Script: {instanceID: 9720}
+      Script: {instanceID: 9716}
     - Class: 114
-      Script: {instanceID: 9728}
+      Script: {instanceID: 9724}
     - Class: 114
-      Script: {instanceID: 9764}
+      Script: {instanceID: 9760}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9772}
+      Script: {instanceID: 9768}
     - Class: 114
-      Script: {instanceID: 10466}
+      Script: {instanceID: 10462}
     - Class: 114
-      Script: {instanceID: 10694}
+      Script: {instanceID: 10690}
     - Class: 114
-      Script: {instanceID: 11280}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11650}
+      Script: {instanceID: 11278}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11658}
     - Class: 114
-      Script: {instanceID: 11896}
+      Script: {instanceID: 11798}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 11892}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 11934}
     - Class: 114
-      Script: {instanceID: 22976}
+      Script: {instanceID: 12104}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -303,25 +301,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9540}
+      Script: {instanceID: 9536}
     - Class: 114
-      Script: {instanceID: 9706}
+      Script: {instanceID: 9702}
     - Class: 114
-      Script: {instanceID: 9708}
+      Script: {instanceID: 9704}
     - Class: 114
-      Script: {instanceID: 9714}
+      Script: {instanceID: 9710}
     - Class: 114
-      Script: {instanceID: 9720}
+      Script: {instanceID: 9716}
     - Class: 114
-      Script: {instanceID: 9728}
+      Script: {instanceID: 9724}
     - Class: 114
-      Script: {instanceID: 9764}
+      Script: {instanceID: 9760}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9772}
+      Script: {instanceID: 9768}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 11934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1029,7 +1027,7 @@ ScriptsOnlyBuild:
     className: ObservableJointTrigger
   - hash:
       serializedVersion: 2
-      Hash: 0b1347149347e67b6b11482d37fa2d73
+      Hash: f920f839de4eedda24b4844360967f98
     assemblyName: Assembly-CSharp.dll
     namespaceName: Gon
     className: PlayerInputs
@@ -1635,6 +1633,12 @@ ScriptsOnlyBuild:
     className: ObservablePointerUpTrigger
   - hash:
       serializedVersion: 2
+      Hash: 76fdb891055780a8dacdb13b7b761f01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gon
+    className: MainMenuEventButtons
+  - hash:
+      serializedVersion: 2
       Hash: eb2a9f75918f2ec46c2bd527aca290ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1705,6 +1709,12 @@ ScriptsOnlyBuild:
     assemblyName: UniRx.Async.dll
     namespaceName: UniRx.Async.Triggers
     className: AsyncTransformChangedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gon
+    className: RxOnMouseOver
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2019,16 +2029,46 @@ ScriptsOnlyBuild:
     className: ZenjectBinding
   - hash:
       serializedVersion: 2
-      Hash: 76fdb891055780a8dacdb13b7b761f01
+      Hash: ce669872a2be11bc686ea22961d8a3bb
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Gon
-    className: MainMenuEventButtons
+    namespaceName: 
+    className: Joystick
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 9e27f44bbf48228f203a37254d40f8ae
     assemblyName: Assembly-CSharp.dll
-    namespaceName: Gon
-    className: RxOnMouseOver
+    namespaceName: 
+    className: JoystickSetterExample
+  - hash:
+      serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloatingJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 824e8d4cb47ffd88ddf959dbd4526585
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DynamicJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixedJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 528e9858840cb8370d93939fff6b42d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JoystickPlayerExample
+  - hash:
+      serializedVersion: 2
+      Hash: 9dac16f3efc511835ac976dfae55f580
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VariableJoystick
   platform: 13
   scenePathNames:
   - Assets/Scenes/Scene Main Menu.unity
